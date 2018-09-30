@@ -1,0 +1,45 @@
+{
+    "name": "LiqPay",
+    "settings": [
+        {
+            "variable": "public_key",
+            "name": "Публичный ключ - идентификатор магазина."
+        },
+        {
+            "variable": "private_key",
+            "name": "Приватный ключ (см. в настройках магазина)."
+        },
+        {
+            "variable": "language",
+            "name": "Язык клиента",
+            "options": [
+                {
+                    "name": "Русский",
+                    "value": "ru"
+                },
+                {
+                    "name": "Украинский",
+                    "value": "uk"
+                },
+                {
+                    "name": "Английский",
+                    "value": "en"
+                }
+            ]
+        },
+        {
+            "variable": "sandbox",
+            "name": "Режим оплаты",
+            "options": [
+                {
+                    "name": "Тестовый режим",
+                    "value": "1"
+                },
+                {
+                    "name": "Рабочий режим",
+                    "value": "0"
+                }
+            ]
+        }
+    ]
+}
